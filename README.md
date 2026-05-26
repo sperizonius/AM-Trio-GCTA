@@ -10,10 +10,9 @@ This repository contains all code used to obtain the results of the simulation s
 
 ### Structure
 This list contains the structure of this repository and what different folders or files contain:
-- **/simulation_study**: 
-    - **simulation_study/scripts**: 
-- **/empirical_application**: 
-    - **empirical_application/scripts**: 
+- **/code**: 
+    - **simulation study/scripts**:
+    - **empirical application**:
 
 ## Author
 - Sofie Perizonius, contact details: s.perizonius3@student.vu.nl or sofie.perizonius@gmail.com (after 1-09-2026)
