@@ -3,8 +3,12 @@ This repository contains all code used to obtain the results of the simulation s
 
 ## Simulation study
 ### GNAMES tool
+For this project, data were simulated using the Genetic-Nurture and Assortative-Mating-Effects Simulator (GNAMES) tool (van Kippersluis et al., 2023). To meet the data requirements of the current project, some functions were modified or added. The adapted GNAMES tool enables separate specification of maternal and paternal indirect genetic effects, rather than a single combined parental effect. It also allows users to specify the covariance between direct and indirect genetic effects, and to output not only the PLINK files for the final generation but also those of their parents, which are required for Trio-GCTA analyses. Any functions that were adapted or added relative to the original GNAMES tool are explicitly indicated in the code. In addition, explanatory comments have been added to many functions.
 
 ### Cleaning and preprocessing
+
+
+
 
 ### GREMLmodels package
 
@@ -20,3 +24,7 @@ This list contains the structure of this repository and what different folders o
 
 ## Author
 - Sofie Perizonius, contact details: s.perizonius3@student.vu.nl or sofie.perizonius@gmail.com (after 1-09-2026)
+
+
+## References
+van Kippersluis, H., Biroli, P., Pereira, R. D., Galama, T. J., von Hinke, S., Meddens, S. F. W., Muslimova, D., Slob, E. A., de Vlaming, R., & Rietveld, C. A. (2023). Overcoming attenuation bias in regressions using polygenic indices. Nature Communications, 14 (1), Article 4473. https://doi.org/10.1038/s41467-023-40069-4
