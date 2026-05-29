@@ -1,3 +1,6 @@
+## Example script for simulating data according to Design 1
+## Sofie Perizonius - 3-3-2026
+
 import numpy as np
 import pandas as pd
 
