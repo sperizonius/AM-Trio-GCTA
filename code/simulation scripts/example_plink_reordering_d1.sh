@@ -1,4 +1,4 @@
-## Example bash script of reordering GNAMES simulated data into Trio-GCTA required data order with PLINK 1.9 and 2.0
+## Example bash script of reordering GNAMES simulated data for design 1 into Trio-GCTA required data order with PLINK 1.9 and 2.0
 ## Sofie Perizonius
 
 #!/bin/bash
