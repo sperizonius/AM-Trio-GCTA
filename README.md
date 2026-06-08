@@ -5,12 +5,19 @@ This repository contains all code used to obtain the results of the simulation s
 ### GNAMES tool
 For this project, data were simulated using the Genetic-Nurture and Assortative-Mating-Effects Simulator (GNAMES) tool (van Kippersluis et al., 2023). To meet the data requirements of the current project, some functions were modified or added. The adapted GNAMES tool enables separate specification of maternal and paternal indirect genetic effects, rather than a single combined parental effect. It also allows users to specify the covariance between direct and indirect genetic effects, and to output not only the PLINK files for the final generation but also those of their parents, which are required for Trio-GCTA analyses. Any functions that were adapted or added relative to the original GNAMES tool are explicitly indicated in the code. In addition, explanatory comments have been added to many functions.
 
+> beschrijf of er nog iets nodig is om te installeren etc. > dependencies
+
+> beschrijf naam script!
+
 ### Cleaning and preprocessing
 
-
-
+> beschrijf volgorde scripts
 
 ### GREMLmodels package
+> beschrijf of er nog iets nodig is om te installeren etc. > dependencies
+
+### Standard GCTA application on GNAMES data
+> beschrijf of er nog iets nodig is om te installeren etc. > dependencies
 
 ## Empirical application
 ### Cleaning and preprocessing
