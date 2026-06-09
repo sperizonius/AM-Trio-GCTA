@@ -1,1 +1,2 @@
-actual gcta analysis
+##
+## Sofie Perizonius - 9-6-2026
