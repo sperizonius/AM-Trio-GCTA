@@ -1,4 +1,5 @@
 ## Adapted GREMLmodels to allow for fitting the variance decomposition of AM-Trio-GCTA > mode = am_version
+## Sofie Perizonius - 9-6-2026
 
 """
 `GREMLData` holds input data of a variance component model
