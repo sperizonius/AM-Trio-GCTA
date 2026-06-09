@@ -1,5 +1,6 @@
-## Script used to obtain subset of the original reorder file (used for reordering simulated datasets according to required Trio-GCTA 
-## required order) that only contains IDs of the children for the subsequent GCTA analysis
+## Script used to obtain subset of the original reorder file (used for reordering simulated datasets according to required Trio-GCTA  required order) 
+## that only contains IDs of the children for the subsequent GCTA analysis
+## Sofie Perizonius - 9-6-2026
 
 import numpy as np
 import pandas as pd
