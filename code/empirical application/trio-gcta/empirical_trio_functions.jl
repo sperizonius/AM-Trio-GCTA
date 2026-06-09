@@ -4,7 +4,7 @@
 ## Difference with functions used on simulated data is that these functions that a precomputed grm and take the (residualized) phenotype information 
 ## from a csv file
 
-# Sofie Perizonius
+## Sofie Perizonius - 9-6-2026
 
 function GREMLModels.transform!(δ::Vector, θ::Vector, rmp, mode::Symbol)
     δ[1] = θ[1]^2
