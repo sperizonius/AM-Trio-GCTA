@@ -1,3 +1,6 @@
+## This script contains the adapted version of the GNAMES tool, originally developed by Ronald de Vlaming
+## Sofie Perizonius - 9-6-2026
+
 import time
 import pandas as pd
 import numpy as np
