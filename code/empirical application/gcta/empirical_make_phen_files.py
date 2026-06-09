@@ -1,1 +1,2 @@
-code to make phenotype files of children for gcta
+##
+## Sofie Perizonius - 9-6-2026
