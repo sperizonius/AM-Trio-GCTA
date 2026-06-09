@@ -1,4 +1,5 @@
 ## Example script for fitting AM-Trio-GCTA models to all simulated datasets for design 1
+## Sofie Perizonius - 9-6-2026
 
 using Pkg
 Pkg.activate("../vc_env")
