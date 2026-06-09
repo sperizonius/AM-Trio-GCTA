@@ -1,5 +1,5 @@
-## Script to run the different steps for Design 1-4 in one go
-## it is also possible to parallelize these jobs if your server allows this
+## Script to run the different steps for Design 1-4 in one go, it is also possible to parallelize these jobs if your server allows this
+## Sofie Perizonius - 9-6-2026
 
 #!/bin/bash
 
