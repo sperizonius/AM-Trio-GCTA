@@ -1,5 +1,5 @@
 # AM-Trio-GCTA
-This repository contains all code used to obtain the results of the simulation study and the empirical application for the thesis _On the importance of assortative mating bias in genetic modelling: An assessment and extension of the Trio-GCTA model_. This includes the adapted versions of the GNAMES tool (https://github.com/devlaming/gnames) and the GREMLmodels package (https://github.com/espenmei/GREMLModels.jl) that were used for this thesis.
+This repository contains all code used to obtain the results of the simulation study and the empirical application described in the thesis _On the importance of assortative mating bias in genetic modelling: An assessment and extension of the Trio-GCTA model_. This includes the adapted versions of the GNAMES tool (https://github.com/devlaming/gnames) and the GREMLmodels package (https://github.com/espenmei/GREMLModels.jl) that were used for this thesis.
 
 ## Simulation study
 ### GNAMES tool
@@ -19,9 +19,23 @@ For this project, data were simulated using the Genetic-Nurture and Assortative-
 ### Standard GCTA application on GNAMES data
 > beschrijf of er nog iets nodig is om te installeren etc. > dependencies
 
+> script 1: make_reorder_subsets.py > ## Script used to obtain subset of the original reorder file (used for reordering simulated datasets according to required Trio-GCTA required order) that only contains IDs of the children for the subsequent GCTA analysis
+> script 2: plink_subsets.sh > ## Script to make a subset of the original simulated datasets that were used in the Trio-GCTA analyses that only contains the children for the GCTA analysis
+> script 3: make_phen_file.py > ## Script to make .phen files containing just the phenotypes of the children for the GCTA analysis
+> script 4: gcta_analysis.sh > ## Script to perform GCTA analysis on children subsets of simulated datasets
+
+
 ## Empirical application
 ### Cleaning and preprocessing
 
+> script 1: data_cleaning.R > contains all steps taken to clean the data prior to analysis with GCTA/Trio-GCTA. Output contains a reorder file that can be used by plink with all individuals in the right order for Trio-GCTA that remained after datacleaning and csv files containing the phenotype information of these individuals in the same order
+
+> script ?: empirical_trio_functions.jl > ## Script that contains functions to fit trio-gcta models, either in the "classical" way or the AM-adjusted version, on simulated data from GNAMES and functions to fit all simulated datasets of one design in one go
+
+Difference with functions used on simulated data is that these functions that a precomputed grm and take the (residualized) phenotype information 
+from a csv file
+
+> before using any of the scripts, please check if the references to folder, working directories or other scripts are correct.
 
 ### Structure
 This list contains the structure of this repository and what different folders or files contain:
