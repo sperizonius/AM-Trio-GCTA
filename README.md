@@ -28,7 +28,8 @@ For this project, data were simulated using the Genetic-Nurture and Assortative-
 ## Empirical application
 ### Cleaning and preprocessing
 
-> script 1: data_cleaning.R > contains all steps taken to clean the data prior to analysis with GCTA/Trio-GCTA. Output contains a reorder file that can be used by plink with all individuals in the right order for Trio-GCTA that remained after datacleaning and csv files containing the phenotype information of these individuals in the same order
+> input should be a reorder file that contains the family ids and ids of individuals that remain after data cleaning, then use plink to obtain reordered plink files
+> input should also be csv file or other type of file that contains residualized and standardized phenotypes
 
 > script ?: empirical_trio_functions.jl > ## Script that contains functions to fit trio-gcta models, either in the "classical" way or the AM-adjusted version, on simulated data from GNAMES and functions to fit all simulated datasets of one design in one go
 
