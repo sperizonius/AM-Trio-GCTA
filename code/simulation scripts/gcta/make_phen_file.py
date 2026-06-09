@@ -1,4 +1,5 @@
 ## Script to make .phen files containing just the phenotypes of the children for the GCTA analysis
+## Sofie Perizonius - 9-6-2026
 
 import numpy as np
 import pandas as pd
