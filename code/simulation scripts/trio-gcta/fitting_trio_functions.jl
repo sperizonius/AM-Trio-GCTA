@@ -1,5 +1,5 @@
 ## Script that contains functions to fit trio-gcta models, either in the "classical" way or the AM-adjusted version, on simulated data from GNAMES and functions to fit all simulated datasets of one design in one go
-# Sofie Perizonius
+## Sofie Perizonius - 9-6-2026
 
 function GREMLModels.transform!(δ::Vector, θ::Vector, rmp, mode::Symbol)
     # Standard unconstrained trio GCTA transform
