@@ -1,5 +1,5 @@
 ## Functions to sort .fam, .phe, .bim, and .bed files from GNAMES simulator into format that works with Trio-GCTA models
-## Sofie Perizonius - 3-3-2026
+## Sofie Perizonius - 9-6-2026
 
 import numpy as np
 import pandas as pd
