@@ -1,5 +1,6 @@
 ## Script to make a subset of the original simulated datasets that were used in the Trio-GCTA analyses that only contains the children
 ## for the GCTA analysis
+## Sofie Perizonius - 9-6-2026
 
 #!/bin/bash
 
