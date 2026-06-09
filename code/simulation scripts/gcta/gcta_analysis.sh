@@ -1,4 +1,5 @@
 ## Script to perform GCTA analysis on children subsets of simulated datasets
+## Sofie Perizonius - 9-6-2026
 
 #!/bin/bash
 
